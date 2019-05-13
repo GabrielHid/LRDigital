@@ -167,7 +167,7 @@ a.sublime{
 }
 
 .fundochaplin{
-    background-color: rgba(221, 221, 22, 0.836);
+    background-color: orange;
 }
 
 .fundoakitem{
@@ -223,7 +223,7 @@ a.sublime{
     background-image: url('../imagens/imagenteste2.jpg');
     background-size: cover;
     background-position: center;
-    height: 1050px;
+    height: 1150px;
 }
 
 .titulosobre{
@@ -254,6 +254,9 @@ a.sublime{
     margin-left: 150px;
     padding-bottom: 20px;
     padding-top: 20px; 
+}
+.fotosec2 img{
+    padding-left: 300px;
 }
 /* fim da tela sobre */
 
@@ -339,6 +342,10 @@ a.sublime{
 .contatos{
     float: left;
 }
+.contatos img{
+    vertical-align: middle;
+    margin-right: 5px;
+}
 .contatos, .sociais, #map{
     display: inline-block;
 }
@@ -350,10 +357,9 @@ a.sublime{
 }
 #map{
     overflow:hidden;
-    width: 200px; 
-    float: right;
+    width: 410px; 
     padding-top: 5px;
-    padding-left: 200px;
+    padding-left: 150px;
 }
 .txt{
     margin-top: 30px;
