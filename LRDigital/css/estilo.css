@@ -18,7 +18,7 @@ html, body{
 
 .topo img{
     height: 110px;
-    
+    padding-left: 100px;
 }
 .topo a{
     text-decoration: none;
@@ -139,10 +139,11 @@ a.sublime{
     border-radius: 10px;
 }
 
-.servicooferecido h2, h4{
+.servicooferecido h2, a{
     color: white;
     text-align: center;
     font-size: 20px;
+    text-decoration: none;
 }
 
 .corposervico{
@@ -213,6 +214,8 @@ a.sublime{
 .aligntxtservico{
     padding-left: 385px; 
     padding-bottom: 50px; 
+    text-align: center;
+    font-size: 20px;
 }
 
 /* Fim página de serviços */
@@ -223,7 +226,12 @@ a.sublime{
     background-image: url('../imagens/imagenteste2.jpg');
     background-size: cover;
     background-position: center;
-    height: 1150px;
+    height: 1200px;
+}
+#mainSobre{
+    border: 5px solid white;
+    border-radius: 10px;
+    margin: 30px;
 }
 
 .titulosobre{
@@ -237,6 +245,7 @@ a.sublime{
     padding: 0px 100px 0px 100px;
     color: white;
     margin-top: 74px;
+    font-weight: bold;
 }
 
 .fotoprincipal img{
@@ -314,7 +323,7 @@ a.sublime{
 .rodape{
     background-color:   #2c6e70;
     padding-top: 20px;
-    height: 230px;;
+    height: 250px;;
     width:100%;
 }
 .icones{
@@ -351,7 +360,7 @@ a.sublime{
 }
 .sociais{
     text-align: center;
-    margin-left: 28%;
+    margin-left: 22%;
     margin-top: 40px;
     vertical-align:top;
 }
@@ -359,7 +368,7 @@ a.sublime{
     overflow:hidden;
     width: 410px; 
     padding-top: 5px;
-    padding-left: 150px;
+    padding-left: 230px;
 }
 .txt{
     margin-top: 30px;
